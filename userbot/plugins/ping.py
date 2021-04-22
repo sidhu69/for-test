@@ -67,16 +67,16 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"__**✦҈͜͡➳ Kong!__**\n★ {ms}\n★ __**My**__ __**Master**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
+        f"__**★★★★✦҈͜͡➳ Kong!__**\n★★★★★ {ms}\n★★★★★ __**My**__ __**Master**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
     )
 
 
 CMD_HELP.update(
     {
         "ping": "__**PLUGIN NAME :** King__\
-    \n\n📌** CMD ★** `.pingy`\
-    \n**USAGE   ★  **A kind of ping with extra animation\
-    \n\n📌** CMD ★** `.king`\
-    \n**USAGE   ★  **Shows you the ping speed of server"
+    \n\n📌** CMD ★★** `.pingy`\
+    \n**USAGE   ★★  **A kind of ping with extra animation\
+    \n\n📌** CMD ★★** `.king`\
+    \n**USAGE   ★★  **Shows you the ping speed of server"
     }
 )
